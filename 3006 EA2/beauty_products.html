@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美容專門店產品展示</title>
+    <style>
+    body { background: #fff7fb; font-family: 'Noto Sans TC', 'Lato', sans-serif; }
+    .main { max-width:1000px; margin:30px auto; }
+    .products-title { font-size:2rem; color:#e054a3; text-align:center; padding:28px 0 12px; letter-spacing:2px; }
+    .product-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(270px,1fr)); gap:28px; }
+    .product-card { background:#fff; border-radius:16px; box-shadow:0 3px 16px #fbd3e880; overflow:hidden; transition:.2s; }
+    .product-card:hover {transform:translateY(-6px); box-shadow:0 12px 32px #e2b4ff44;}
+    .product-img { width:100%; height:230px; object-fit:cover; background:#f6f7fa; }
+    .product-info { padding:20px 18px 18px 18px; }
+    .product-info h3 { font-size:1.12rem; color:#c7237e; margin-bottom:8px; }
+    .product-info .desc { color:#888; font-size:0.97rem; margin-bottom:10px; min-height:42px; }
+    .product-info .price { color:#fff; background:#ff78ae; border-radius:7px; font-size:1.04rem; padding:6px 15px; display:inline-block; }
+    @media (max-width:600px) { .main { padding:0 3vw; } .product-card{padding-bottom:20px;} }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="products-title">本店暢銷美容產品</div>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="product-01.png" alt="CeraVe 保濕潔面乳" class="product-img">
+                <div class="product-info">
+                    <h3>CeraVe 保濕潔面乳</h3>
+                    <p class="desc">適合乾性至普通膚質、無香配方</p>
+                    <div class="price">HKD$89</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="product-02.jpg" alt="LINDSAY 膠原蛋白肌膚面膜粉" class="product-img">
+                <div class="product-info">
+                    <h3>LINDSAY 膠原蛋白肌膚面膜粉</h3>
+                    <p class="desc">補水緊膚 提亮、韓國專業面膜</p>
+                    <div class="price">HKD$55</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="product-03.jpg" alt="Arencia 玻璃水光面膜" class="product-img">
+                <div class="product-info">
+                    <h3>Arencia 玻璃水光面膜</h3>
+                    <p class="desc">牛膝草精華+菸鹼醯胺、亮白保濕</p>
+                    <div class="price">HKD$128</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="product-04.jpg" alt="Wild Bluebell 清爽身體乳" class="product-img">
+                <div class="product-info">
+                    <h3>Wild Bluebell 清爽身體乳</h3>
+                    <p class="desc">藍風鈴香氣、清新舒緩配方</p>
+                    <div class="price">HKD$105</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="product-05.jpg" alt="Torriden DIVE IN 水保濕泥膜杯" class="product-img">
+                <div class="product-info">
+                    <h3>Torriden DIVE IN 水保濕泥膜杯</h3>
+                    <p class="desc">韓系爆水修復、小巧便攜</p>
+                    <div class="price">HKD$66</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="product-06.jpg" alt="資生堂 MOLiP 維生素潤唇膏" class="product-img">
+                <div class="product-info">
+                    <h3>資生堂 MOLiP 維生素潤唇膏</h3>
+                    <p class="desc">E+B6潤唇 修復乾裂+脫皮</p>
+                    <div class="price">HKD$49</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="product-07.jpg" alt="資生堂 迷你睫毛夾" class="product-img">
+                <div class="product-info">
+                    <h3>資生堂 迷你睫毛夾</h3>
+                    <p class="desc">日系設計 點對點捲翹</p>
+                    <div class="price">HKD$53</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="product-08.jpg" alt="大塚製藥 賢者之食卓" class="product-img">
+                <div class="product-info">
+                    <h3>大塚製藥 賢者之食卓</h3>
+                    <p class="desc">膳食纖維補充劑 輕食代餐</p>
+                    <div class="price">HKD$79</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
